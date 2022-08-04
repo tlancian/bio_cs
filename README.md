@@ -26,15 +26,11 @@ This package is free for research, academic and non-profit making purposes only.
 
 ### Execution
 
-Run the following command: 'python main.py [-h] [-C] d'
+Run the following command: 'python main.py [-h] d C'
 
 #### Positional arguments:
-  * d           &nbsp;&nbsp;&nbsp;&nbsp;Path to input graph.
-
-#### Optional arguments:
-  * -h, --help  
-    show the help message and exit	
-  * -C       &nbsp;&nbsp;&nbsp;&nbsp;C value for execution of Algorithm 1
+* d           &nbsp;&nbsp;&nbsp;&nbsp;Path to input graph.
+* C       &nbsp;&nbsp;&nbsp;&nbsp;C value for execution of Algorithm 1
   	
 #### Examples:
 'python main.py toy_graph.tsv 1.4'  

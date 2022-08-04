@@ -9,7 +9,7 @@ import os
 parser = argparse.ArgumentParser()
 
 parser.add_argument('d', help='Path to Graph', type=str)
-parser.add_argument('-C', help='C', type=int, default = 1)
+parser.add_argument('C', help='C', type=float)
 
 args = parser.parse_args()
 
