@@ -22,8 +22,6 @@ This package is free for research, academic and non-profit making purposes only.
 
 * The code has been tested with Python 3.8
 * Input graph must be a weighted tab-separated edge-list, following the format: "node1 \t node2 \t weight"
-* toy.tsv is a toy graph for trying our method.
-
 
 
 ### Execution
@@ -31,7 +29,7 @@ This package is free for research, academic and non-profit making purposes only.
 Run the following command: 'python main.py [-h] [-C] d'
 
 #### Positional arguments:
-  * d           &nbsp;&nbsp;&nbsp;&nbsp;Path to graph edge-list.
+  * d           &nbsp;&nbsp;&nbsp;&nbsp;Path to input graph.
 
 #### Optional arguments:
   * -h, --help  
@@ -39,7 +37,7 @@ Run the following command: 'python main.py [-h] [-C] d'
   * -C       &nbsp;&nbsp;&nbsp;&nbsp;C value for execution of Algorithm 1
   	
 #### Examples:
-'python main.py toy.tsv 1.4'  
+'python main.py toy_graph.tsv 1.4'  
 
 
 ---
