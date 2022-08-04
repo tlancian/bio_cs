@@ -6,7 +6,7 @@ _Biological networks are often used to describe the relationships between releva
 
 
 <p align="center">
-  <img width="700" height="450" src="https://github.com/tlancian/bio_cs">
+  <img width="700" height="450" src="https://github.com/tlancian/bio_cs/blob/main/fig.png">
 </p>
 
 
@@ -20,13 +20,27 @@ This package is free for research, academic and non-profit making purposes only.
 
 ### Requirements
 
-The code has been tested with:
+* The code has been tested with Python 3.8
+* Input graph must be a weighted tab-separated edge-list, following the format: "node1 \t node2 \t weight"
+* toy.tsv is a toy graph for trying our method.
 
-* Python 3.8
+
 
 ### Execution
 
-Write here how to execute!
+Run the following command: 'python main.py [-h] [-C] d'
+
+#### Positional arguments:
+  * d           &nbsp;&nbsp;&nbsp;&nbsp;Path to graph edge-list.
+
+#### Optional arguments:
+  * -h, --help  
+    show the help message and exit	
+  * -C       &nbsp;&nbsp;&nbsp;&nbsp;C value for execution of Algorithm 1
+  	
+#### Examples:
+'python main.py toy.tsv 1.4'  
+
 
 ---
   
