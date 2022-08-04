@@ -6,7 +6,7 @@ _Biological networks are often used to describe the relationships between releva
 
 
 <p align="center">
-  <img width="700" height="450" src="https://github.com/tlancian/bio_cs/blob/main/fig.png">
+  <img width="600" height="450" src="https://github.com/tlancian/bio_cs/blob/main/fig.png">
 </p>
 
 
