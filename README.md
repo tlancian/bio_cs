@@ -6,7 +6,7 @@ _Biological networks are often used to describe the relationships between releva
 
 
 <p align="center">
-  <img width="700" height="450" src="https://github.com/tlancian/neuro-cs/blob/main/figure.png">
+  <img width="700" height="450" src="https://github.com/tlancian/bio_cs">
 </p>
 
 
@@ -26,10 +26,7 @@ The code has been tested with:
 
 ### Execution
 
-In order to run our code, download [CVX](http://cvxr.com/cvx/download/), unzip the folder and place it in "icdm16-egoscan".
-
-Then, you can execute the following functions (contained in the file cs.py): 
-
+Write here how to execute!
 
 ---
   
