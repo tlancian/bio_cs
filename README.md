@@ -14,9 +14,6 @@ _Biological networks are often used to describe the relationships between releva
 
 This repository contains the code necessary to implement algorithms described in the article "Contrast Subgraphs Allow Comparing Homogeneous and Heterogeneous Networks Derived from Omics Data".
 
-This package is free for research, academic and non-profit making purposes only. If you use this piece of software for your work and got something published please include the citation reported below. The software may not be sold or redistributed without prior approval. One may make copies of the software for their use provided that the copies, are not sold or distributed, are used under the same terms and conditions. As unestablished research software, this code is provided on an "as is" basis without warranty of any kind, either expressed or implied. The downloading, or executing any part of this software constitutes an implicit agreement to these terms. These terms and conditions are subject to change at any time without prior notice.
-
-
 
 ### Requirements
 
