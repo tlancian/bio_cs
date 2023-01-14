@@ -37,6 +37,14 @@ Run the following command: 'python main.py [-h] d C'
 
 
 ---
+
+Folder "figures" contains the necessary code to reproduce the figures in our paper. Data can be accessed through the links reported in the paper.
+
+* violinplot.py reproduces the violin plots.
+* 
+* 
+
+---
   
 ### Contacts
 Mail to [paolo.provero@unito.it](mailto:paolo.provero@unito.it) and [bonchi@centai.eu](mailto:bonchi@centai.eu) for any question.
