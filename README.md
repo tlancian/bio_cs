@@ -35,11 +35,11 @@ Run the following command: 'python main.py [-h] d C'
 
 ---
 
-Folder "figures" contains the necessary code to reproduce the figures in our paper. Data can be accessed through the links reported in the paper.
+The folder "figures" contains the code required to recreate the figures in our paper, and the data can be obtained by following the instructions provided in the paper.
 
-* violinplot.py reproduces the violin plots.
+* violinplot.py reproduces the violin plots (Figure 1 and Figure 2).
 * 
-* 
+* Figure 4 was created using Cytoscape, a graphical user interface (GUI) program.
 
 ---
   
