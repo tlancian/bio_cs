@@ -28,6 +28,7 @@ def graph_handler(G):
     for line in G_reader:
 
         dict_graph[nodes_map[line[0]]][nodes_map[line[1]]] = float(line[2])
+        dict_graph[nodes_map[line[1]]][nodes_map[line[0]]] = float(line[2])
 
 
     inv_map = {v: k for k, v in nodes_map.items()}
