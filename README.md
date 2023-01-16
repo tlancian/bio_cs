@@ -35,10 +35,14 @@ Run the following command: 'python main.py [-h] d C'
 
 ---
 
-The folder "figures" contains the code required to recreate the figures in our paper, and the data can be obtained by following the instructions provided in the paper.
+The "additional_files" folder holds all code unrelated to the algorithm, including data processing and figure generation.
 
-* violinplot.py reproduces the violin plots (Figure 1 and Figure 2).
-* 
+* 01_TCGA_data.R: TCGA-BRCA data download and pre-processing
+* 02_corrs:R: Computes correlation between genes in TCGA and METABRIC subtypes
+* 03_CPTAC network.R: Computes correlation between genes in TCGA proteomic and transcriptomic data
+* 04_GO.R: Gene Ontology enrichment for differential subgraphs and comparison of correlation- and proportionality-based subgraphs
+* 05_compare_corrs.R: Compare transcript-protein correlation for genes belonging to CPTAC or TCGA differential subgraphs
+* violinplot.py: Violin plots (Figure 1 and Figure 2).
 * Figure 4 was created using Cytoscape, a graphical user interface (GUI) program.
 
 ---
