@@ -20,9 +20,10 @@ def degree_distribution(G, subgraph):
 parser = argparse.ArgumentParser()
 
 parser.add_argument('g1', help='Graph 1', type=str)
-parser.add_argument('g2', help='Graph 1', type=str)
+parser.add_argument('g2', help='Graph 2', type=str)
 parser.add_argument('d', help='difference graph', type=str)
 parser.add_argument('C', help='C', type=float)
+parser.add_argument('out', help='Complete path for output file', type=float)
 
 args = parser.parse_args()
 
@@ -54,4 +55,4 @@ degrees.Degree = degrees.Degree.astype("float64")
 deg = sns.violinplot(x="type", y="Degree", hue="Subtype", split=True, data=degrees, inner = "quartile", palette = ["lightseagreen", "red"])
 deg.set_title("class_1 - class_2 Contrast Subgraph")
 deg.set(xticklabels=[], xticks = [], xlabel=None)
-plt.show()
+plt.savefig(args.out, bbox_to_inches = "tight")
