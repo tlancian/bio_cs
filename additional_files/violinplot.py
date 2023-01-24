@@ -17,10 +17,6 @@ def degree_distribution(G, subgraph):
                 pass
     return list(degrees.values())
 
-dataset = "transcr"
-classes = ["CPTAC", "TCGA"]
-
-
 parser = argparse.ArgumentParser()
 
 parser.add_argument('g1', help='Graph 1', type=str)
@@ -38,11 +34,11 @@ results = peeling.C_peeling(diff_graph, args.C)
 sol = [atlas_diff[node] for node in results[0]]
 
 #Dens_A
-G_A = peeling.graph_handler(args.g1)
+G_A, atlas_A = peeling.graph_handler(args.g1)
 degrees_A = degree_distribution(G_A, sol)
 
 #Dens_B
-G_B = peeling.graph_handler(args.g2)
+G_B, atlas_B = peeling.graph_handler(args.g2)
 degrees_B = degree_distribution(G_B, sol)
 
 degrees = pd.DataFrame([["degree"]*(len(degrees_A)+len(degrees_B)),
